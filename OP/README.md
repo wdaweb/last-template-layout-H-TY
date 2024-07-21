@@ -1,29 +1,30 @@
 # ● 3個套件運用說明
 
-## Ukiyo.js 套件
-- 在 機器人圖片 的部分，應用  parallax 功能
-- 步驟順序：
-    1. 先安裝：npm i ukiyojs
-    2. import Ukiyo from "ukiyojs"
-    3. 為圖片自訂執行動畫的 class 名稱，複製相關的<script> 的 code 貼在 App.vue 檔
-    4. 依據需求，做 code 的新增或修改
+    ## Ukiyo.js 套件
+    - 在 機器人圖片 的部分，應用  parallax 功能
+    - 步驟順序：
+        1. 先安裝：npm i ukiyojs
+        2. import Ukiyo from "ukiyojs"
+        3. 為圖片自訂執行動畫的 class 名稱，複製相關的<script> 的 code 貼在 App.vue 檔
+        4. 依據需求，做 code 的新增或修改
+    
+    ## GSAP 套件
+    - 在 Service 的部分，應用  ScrollTrigger 功能
+    - 步驟順序：
+        1. 先安裝：npm install gsap
+        2. import gsap from 'gsap'，並註冊 GSAP 套件
+        3. 複製相關的 <template>、<script>、CSS檔 的 code 貼在 App.vue 檔
+        4. 依據需求，做 code 的新增或修改
+    
+    ## Swiper 套件
+    - 在 Testimonials 的部分，應用 Effect coverflow 功能
+    - 步驟順序：
+         1. 先安裝：npm install swiper
+         2. 引用相關套件
+         3. 複製 Effect coverflow 的 vue 相關的 <template>、<script>、 style.css檔 的 code 貼在 App.vue 檔以及新增一個 style.css檔
+         4. 依據需求，做 code 的新增或修改
 
-## GSAP 套件
-- 在 Service 的部分，應用  ScrollTrigger 功能
-- 步驟順序：
-    1. 先安裝：npm install gsap
-    2. import gsap from 'gsap'，並註冊 GSAP 套件
-    3. 複製相關的 <template>、<script>、CSS檔 的 code 貼在 App.vue 檔
-    4. 依據需求，做 code 的新增或修改
-
-## Swiper 套件
-- 在 Testimonials 的部分，應用 Effect coverflow 功能
-- 步驟順序：
-     1. 先安裝：npm install swiper
-     2. 引用相關套件
-     3. 複製 Effect coverflow 的 vue 相關的 <template>、<script>、 style.css檔 的 code 貼在 App.vue 檔以及新增一個 style.css檔
-     4. 依據需求，做 code 的新增或修改
-
+--- --- --- --- --- --- --- --- ---
 
 # Vuetify (Default)
 
